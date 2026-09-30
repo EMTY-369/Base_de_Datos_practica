@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3E307BF-BD3D-0F7B-FB28-0965BC990E67" name="LIBROS">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:21:04 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="LIBRO_ID" id="6870795F-B9FD-4905-C352-3D7171449D6C">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:21:17 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TITULO" id="E9EE68F8-8934-61AE-29F6-11A21830BB25">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:21:30 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ISBN" id="209C0079-AAA4-9AA5-7D37-E056239C2537">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:21:40 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ANIO_PUBLICACION" id="3AFA49D1-D506-22EF-46F4-E694C82351EC">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:21:46 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMERO_PAGINAS" id="DB762BE2-F29F-5B7E-C7C2-191A4ED5DD24">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:22:43 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CATEGORIA_ID" id="624D217F-D401-D82B-9577-B3F90E6A1018">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:28:04 UTC</createdTime>
+<generatorID>60788052-AB48-1860-D979-470A6999DE10</generatorID>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<referedAttribute>AC73E19D-13A8-4C8A-7F61-DAE672213885</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12F818F0-8A99-2F96-95D7-6A10D6B772E6" name="LIBROS PK">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:21:25 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6870795F-B9FD-4905-C352-3D7171449D6C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CATEGORIAS_LIBROS" directorySegmentName="seg_0" id="60788052-AB48-1860-D979-470A6999DE10">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:28:04 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<sourcePk>EE1A1084-B72D-8152-46E6-C60C75FEFDAB</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>23C7B69D-A443-E721-BFE1-FA4BD3EFCD71</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B3E307BF-BD3D-0F7B-FB28-0965BC990E67</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

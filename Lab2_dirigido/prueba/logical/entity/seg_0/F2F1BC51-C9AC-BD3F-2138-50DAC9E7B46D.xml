@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2F1BC51-C9AC-BD3F-2138-50DAC9E7B46D" name="AUTORES">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:31:33 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AUTOR_ID" id="32952524-3229-5E32-35D5-CF07C0BD54B2">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:32:30 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRES" id="EADDCC45-83AD-C924-7724-A11B62F1EBCC">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:33:10 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDOS" id="22CDB47D-498E-9AFA-938B-0B0D4BAF295B">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:33:32 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIONALIDAD" id="59E67D3C-A6F7-FD79-0D3A-7A942DC3432E">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:33:44 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_NACIEMIENTO" id="16F0C8E9-62A9-95F9-583F-E38F5AA014C4">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:33:51 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="150015F8-40AA-8E9F-2F28-5E31D9E46948" name="AUTORES PK">
+<createdBy>User</createdBy>
+<createdTime>2026-09-02 23:33:09 UTC</createdTime>
+<ownerDesignName>LAB02_Dirigido</ownerDesignName>
+<engineerTo>
+<item key="A77748D2-DB8F-041D-C9E2-37DF34897D2C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>32952524-3229-5E32-35D5-CF07C0BD54B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
